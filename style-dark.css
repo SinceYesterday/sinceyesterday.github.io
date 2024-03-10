@@ -1,7 +1,7 @@
 
 
 :root {
-  --primary-color: #cf23cf; /* Define tu color personalizado aquí */
+  --primary-color: #cf23cf; 
 }
 
         body {
@@ -48,82 +48,54 @@
         }
 
         h1 {
-            /*background: linear-gradient(to right, #2196F3, #7E57C2);*/ /* Azul más claro a morado más claro y brillante */
             color: black; 
             display: inline-block;
         }
 
     .boton-gradient {
       display: inline-block;
-      /*padding: 10px 20px;*/
       font-size: 16px;
       text-align: center;
-      border: 2px solid transparent; /* Asegura que el borde no afecte el tamaño del botón */
+      border: 2px solid transparent; 
       border-radius: 10px;
-      background-clip: padding-box, border-box; /* Establece cómo se aplica el fondo y el borde */
-      /*border-image: linear-gradient(to right bottom, #2196f3, #0086fb, #0075ff, #0061ff, #0048ff, #2c3efa, #4032f5, #4f23ef, #6132e4, #6d40d8, #774ccd, #7e57c2);
-      */
+      background-clip: padding-box, border-box; 
 
       background: 
         linear-gradient(white, white) padding-box,
-        /*linear-gradient(132deg, #6a3094, #c02425, #f0cb35) border-box;*/
         linear-gradient(132deg, red, purple) border-box;
-  /*
-      border-image: linear-gradient(to right bottom, #2196f3, #0086fb, #0075ff, #0061ff, #0048ff, #2c3efa, #4032f5, #4f23ef, #6132e4, #6d40d8, #774ccd, #7e57c2);
-  */
-
       color: black;
       text-decoration: none;
       padding: 15px;
       font-weight: bold;
-      
     }
-
 
     .boton-gradient:hover {
       display: inline-block;
-      /*padding: 10px 20px;*/
       font-size: 16px;
       text-align: center;
-      border: 4px solid transparent; /* Asegura que el borde no afecte el tamaño del botón */
+      border: 4px solid transparent;
       border-radius: 10px;
-      background-clip: padding-box, border-box; /* Establece cómo se aplica el fondo y el borde */
-      /*border-image: linear-gradient(to right bottom, #2196f3, #0086fb, #0075ff, #0061ff, #0048ff, #2c3efa, #4032f5, #4f23ef, #6132e4, #6d40d8, #774ccd, #7e57c2);
-      */
-
+      background-clip: padding-box, border-box; 
       background: 
         linear-gradient(black, black) padding-box,
-        /*linear-gradient(132deg, #6a3094, #c02425, #f0cb35) border-box;*/
         linear-gradient(132deg, red, purple) border-box;
-  /*
-      border-image: linear-gradient(to right bottom, #2196f3, #0086fb, #0075ff, #0061ff, #0048ff, #2c3efa, #4032f5, #4f23ef, #6132e4, #6d40d8, #774ccd, #7e57c2);
-  */
-
       color: white;
       text-decoration: none;
       padding: 13px;
       font-weight: bold;
-      
     }
 
     .boton-gradient-dark {
       display: inline-block;
-      /*padding: 10px 20px;*/
       font-size: 16px;
       text-align: center;
-      border: 2px solid transparent; /* Asegura que el borde no afecte el tamaño del botón */
+      border: 2px solid transparent; 
       border-radius: 10px;
-      background-clip: padding-box, border-box; /* Establece cómo se aplica el fondo y el borde */
-      /*border-image: linear-gradient(to right bottom, #2196f3, #0086fb, #0075ff, #0061ff, #0048ff, #2c3efa, #4032f5, #4f23ef, #6132e4, #6d40d8, #774ccd, #7e57c2);
-      */
+      background-clip: padding-box, border-box; 
 
       background: 
         linear-gradient(black, black) padding-box,
-        /*linear-gradient(132deg, #6a3094, #c02425, #f0cb35) border-box;*/
         linear-gradient(132deg, red, purple) border-box;
-  /*
-      border-image: linear-gradient(to right bottom, #2196f3, #0086fb, #0075ff, #0061ff, #0048ff, #2c3efa, #4032f5, #4f23ef, #6132e4, #6d40d8, #774ccd, #7e57c2);
-  */
 
       color: white;
             text-decoration: none;
@@ -133,12 +105,11 @@
       
     }
 
-
     .text-style1 {
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
         color: white;
-        font-size: 64px;
+        font-size: 72px;
     }
 
     .text-style1-gradient {
@@ -146,36 +117,7 @@
       font-weight: 700;
       color: white;
       font-size: 64px;
-
-      /*background: #7F00FF;  
-background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  
-background: linear-gradient(to right, #E100FF, #7F00FF);*/
-
-      /*background: linear-gradient(269deg, #4F00F0 13%, #D300FF 88%);*/
-
-      /*background: #03001e;  
-background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); 
-background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);*/
-
-
-/*background: #7F00FF;  
-background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  
-background: linear-gradient(to right, #E100FF, #7F00FF);*/
-
-/*
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;*/
-
-
-
-/*
-    color: black;
-    border: 2px;
-    -webkit-text-stroke: 1px white;
-    text-stroke: 1px white;*/
-
-    opacity: 1;
-    
+      opacity: 1;
   }
 
     .text-style2 {
@@ -244,10 +186,6 @@ background: linear-gradient(to right, #E100FF, #7F00FF);*/
     -webkit-background-clip: text; 
 }
 
-
-
-
-    /*https://logosandtypes.com/alphabet/letter-a/art-blocks/*/
     .svg-container {
       position : absolute;
       width: 100%;
@@ -256,15 +194,10 @@ background: linear-gradient(to right, #E100FF, #7F00FF);*/
       left: 0;
       z-index: -1;
       background-image: url('backimage3.png');
-      background-size: cover; /* You can adjust this based on your requirements */
+      background-size: cover; 
       background-position: left top;
     }
 
-    /*
-    blue light
-    blur -> 600
-    blue - > 232ACF
-    */
     .hero-image {
       background-image: url("backimage3.png");
       background-color: transparent;
@@ -275,13 +208,11 @@ background: linear-gradient(to right, #E100FF, #7F00FF);*/
     }
 
     .positioned-image {
-      position: absolute; /* Set the image position to absolute */
-      top: 0px; /* Adjust the desired top position in pixels */
-       /* Adjust the desired left position in pixels */
+      position: absolute; 
+      top: 0px; 
       width: 100%;
       height: auto;
       z-index: -1;
-      /* Add other styles as needed */
     }
 
     .svg-container-2 {
@@ -297,27 +228,23 @@ background: linear-gradient(to right, #E100FF, #7F00FF);*/
 
     .contenedor-flexible {
       display: flex;
-      flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
-      justify-content:left; /* Ajusta la distribución de los elementos */
-      align-items:flex-start;/* Ajusta la alineación vertical de los elementos */
+      flex-wrap: wrap; 
+      justify-content:left; 
+      align-items:flex-start;
     }
 
-
-    
     .project-item {
       width: 260px;
       height: 150px;
       margin-bottom: 32px;
       display: inline-block;
-      /*padding: 10px 20px;*/
       font-size: 16px;
       text-align: left;
-      border: 1px solid transparent; /* Asegura que el borde no afecte el tamaño del botón */
+      border: 1px solid transparent; 
       border-radius: 10px;
-      background-clip: padding-box, border-box; /* Establece cómo se aplica el fondo y el borde */
+      background-clip: padding-box, border-box; 
       background: 
         linear-gradient(black, black) padding-box,
-        /*linear-gradient(132deg, #6a3094, #c02425, #f0cb35) border-box;*/
         linear-gradient(235deg, #343434, #343434) border-box;
 
       color: black;
@@ -335,12 +262,11 @@ background: linear-gradient(to right, #E100FF, #7F00FF);*/
       /*padding: 10px 20px;*/
       font-size: 16px;
       text-align: left;
-      border: 1px solid transparent; /* Asegura que el borde no afecte el tamaño del botón */
+      border: 1px solid transparent;
       border-radius: 2px;
-      background-clip: padding-box, border-box; /* Establece cómo se aplica el fondo y el borde */
+      background-clip: padding-box, border-box; 
       background: 
         linear-gradient(black, black) padding-box,
-        /*linear-gradient(132deg, #6a3094, #c02425, #f0cb35) border-box;*/
         linear-gradient(132deg, #343434, #343434) border-box;
 
       color: black;
@@ -350,23 +276,19 @@ background: linear-gradient(to right, #E100FF, #7F00FF);*/
             font-weight: bold;
     }
 
-
     .project-item-pro {
       width: 260px;
       height: 250px;
       margin-bottom: 32px;
       display: inline-block;
-      /*padding: 10px 20px;*/
       font-size: 16px;
       text-align: left;
-      border: 1px solid transparent; /* Asegura que el borde no afecte el tamaño del botón */
+      border: 1px solid transparent; 
       border-radius: 2px;
-      background-clip: padding-box, border-box; /* Establece cómo se aplica el fondo y el borde */
+      background-clip: padding-box, border-box; 
       
     background: 
         linear-gradient(black, black) padding-box,
-        /*linear-gradient(132deg, #6a3094, #c02425, #f0cb35) border-box;*/
-        /*linear-gradient(325deg, #0000FF, black, #A020F0) border-box;*/
         linear-gradient(325deg, #3D008D, black, #A020F0) border-box;
       color: black;
             text-decoration: none;
@@ -375,44 +297,36 @@ background: linear-gradient(to right, #E100FF, #7F00FF);*/
             font-weight: bold;
 
             opacity: 0.9;
-      
     }
-
 
     .project-item-pro:hover {
       width: 260px;
       height: 250px;
       margin-bottom: 32px;
       display: inline-block;
-      /*padding: 10px 20px;*/
       font-size: 16px;
       text-align: left;
-      border: 1px solid transparent; /* Asegura que el borde no afecte el tamaño del botón */
+      border: 1px solid transparent;
       border-radius: 2px;
-      background-clip: padding-box, border-box; /* Establece cómo se aplica el fondo y el borde */
+      background-clip: padding-box, border-box;
       
     background: 
         linear-gradient(black, black) padding-box,
-        /*linear-gradient(132deg, #6a3094, #c02425, #f0cb35) border-box;*/
-        /*linear-gradient(325deg, #0000FF, black, #A020F0) border-box;*/
         linear-gradient(325deg, #3D008D, black, #A020F0) border-box;
       color: black;
             text-decoration: none;
             padding: 15px;
             margin: 32px 15px;
             font-weight: bold;
-
             opacity: 1;
-      
     }
-
 
     .circle {
       width: 200px;
       height: 200px;
       border-radius: 50%;
-      background-color: #3498db; /* Cambia esto al color que desees */
-      backdrop-filter: blur(400px); /* Puedes ajustar la intensidad del blur según tus preferencias */
+      background-color: #3498db; 
+      backdrop-filter: blur(400px); 
   }
 
 
@@ -482,53 +396,56 @@ background: linear-gradient(to right, #E100FF, #7F00FF);*/
   position: relative;
   }
 
-
-
   .button-pro {
     width: 120px;
     margin-bottom: 32px;
     display: inline-block;
-    /*padding: 10px 20px;*/
     font-size: 14px;
     text-align: center;
-    border: 1px solid transparent; /* Asegura que el borde no afecte el tamaño del botón */
+    border: 1px solid transparent; 
     border-radius: 2px;
-    background-clip: padding-box, border-box; /* Establece cómo se aplica el fondo y el borde */
+    background-clip: padding-box, border-box; 
     
   background: 
       linear-gradient(black, black) padding-box,
-      /*linear-gradient(132deg, #6a3094, #c02425, #f0cb35) border-box;*/
-      /*linear-gradient(325deg, #0000FF, black, #A020F0) border-box;*/
       linear-gradient(325deg, #A020F0, black, #A020F0) border-box;
     color: black;
-          text-decoration: none;
-          padding: 8px;
-          font-weight: bold;
-          opacity: 0.8;
-    
+      text-decoration: none;
+      padding: 8px;
+      font-weight: bold;
+      opacity: 0.8;
   }
 
 
   .button-pro:hover {
     margin-bottom: 32px;
     display: inline-block;
-    /*padding: 10px 20px;*/
     font-size: 16px;
     text-align: center;
-    border: 1px solid transparent; /* Asegura que el borde no afecte el tamaño del botón */
+    border: 1px solid transparent; 
     border-radius: 2px;
-    background-clip: padding-box, border-box; /* Establece cómo se aplica el fondo y el borde */
+    background-clip: padding-box, border-box;
     
   background: 
       linear-gradient(black, black) padding-box,
-      /*linear-gradient(132deg, #6a3094, #c02425, #f0cb35) border-box;*/
-      /*linear-gradient(325deg, #0000FF, black, #A020F0) border-box;*/
       linear-gradient(325deg, #A020F0, black, #A020F0) border-box;
     color: black;
-          text-decoration: none;
-          padding: 8px;
-          font-weight: bold;
-
-          opacity: 1;
-    
+      text-decoration: none;
+      padding: 8px;
+      font-weight: bold;
+      opacity: 1;
   }
+
+  .contact-link {
+    font-size: 20px;
+    color: #EEEEEE;
+    text-decoration-color:#cf23cf;
+    font-family: 'JetBrains Mono', sans-serif;
+    margin-right: 20px;
+
+  }
+
+  .contact-link:hover {
+    color: #AAAAAA;
+  }
+
